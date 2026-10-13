@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Tokens propios: generan utilidades como bg-brand-600, text-brand-50, font-sans */
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-brand-50: oklch(97% 0.02 60);
+  --color-brand-600: oklch(50% 0.11 45);
+  --color-brand-700: oklch(42% 0.1 45);
+}
